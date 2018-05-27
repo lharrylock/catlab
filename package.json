@@ -1,0 +1,31 @@
+{
+  "name": "catlab",
+  "version": "1.0.0",
+  "description": "buy/sell cats and make new cats",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src/main/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lharrylock/catlab.git"
+  },
+  "keywords": [
+    "cat",
+    "cats",
+    "kitty",
+    "meow",
+    "catlab"
+  ],
+  "author": "Lisa Harrylock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lharrylock/catlab/issues"
+  },
+  "homepage": "https://github.com/lharrylock/catlab#readme",
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "webpack": "^4.9.1"
+  }
+}
